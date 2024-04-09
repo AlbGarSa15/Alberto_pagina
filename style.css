@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contenedor {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .area {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    display: block;
+    padding: 10px 20px;
+    margin: 10px auto;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%;
+    max-width: 400px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  
+
+
+
+
+
+  body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Ajusta el color de fondo según sea necesario */
+  }
+  
+  .InicioSesion {
+    text-align: center;
+  }
+  
+  .input-container {
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  .btn {
+    padding: 20px;
+    border-radius: 10px;
+    border: 5px solid #ccc;
+  }
+  
+  .btn {
+    background-color: #d35bad; /* Cambia el color del botón aquí */
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #ffb3d1; /* Cambia el color de hover del botón aquí */
+  }
